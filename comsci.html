@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Website</title>
+	  
+	  <meta charset="UTF-8">
+	  <meta name="author" content="Group 1">
+	  <meta name="keywords" content="HTML,CSS">
+	  <meta name="revised" content="Oct. 30, 2010">
+	  <link rel="icon" href="icon.png" type="image/gif">
+		<style>
+			body{
+				background-image: url("wallpaper.png");
+				text-align: center;
+			}
+			
+			body article, body iframe{
+				margin-left: 125px;
+				
+			a{
+				tex-decoration: none;
+			}
+			
+			.top {
+				background-color: white;
+				height: 70%;
+				overflow: hidden;
+			}
+			
+			h1{
+				font-family: times new roman;
+				font-size: 35px;
+				color: #A97155;
+				padding-top: 10px;
+				padding-bottom: 0;
+				padding-left: 10px;
+				text-align: center;
+				margin-top: 0;
+				margin-bottom: 0;
+				margin-left: 140px;
+			}
+			
+			header h4{
+				font-family: helvetica;
+				font-size: 25px;
+				color: #A97155;
+				padding-top: 5px;
+				padding-bottom: 4px;
+				padding-left: 10px;
+				text-align: center;
+				margin-top: 0;
+				margin-bottom: 0;
+				margin-left: 140px;
+			}
+			
+			#catpic {
+				position: absolute;
+				top: 15px;
+				left: 400px;
+				margin-top: 0;
+				margin-right: 0;
+			}
+			
+			.navbar {
+				width: 500px;
+				position: relative;
+				left: 575px;
+				background-color: #E4D1B9;
+			}
+			
+			.navbar ul {
+				list-style-type: none;
+				overflow: hidden;
+			}
+			
+			.navbar a{
+				color: #A97155;
+				margin: 10px;
+				text-decoration: none;
+				display: block;
+				text-align: center;
+			}
+			
+			.navbar a:hover{
+				color: white;
+			}
+			
+			.navbar a:visited{
+				color: #694431;
+			}
+			
+			.navbar li {
+				float: left;
+				margin-right: 50px;
+			}
+			
+			iframe {
+				box-shadow: 5px 5px;
+				position: relative;
+				left: 90px;
+			}
+			
+			#hoodie {
+				width: 250px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+			aside span>p{
+				font-family: comic sans ms;
+				position: relative;
+				color: #B80000;
+				font-size: 20px;
+				right: 625px;
+				top: 65px;
+				margin: 10px;
+			}
+			
+			aside div{
+				position: absolute;
+				width: 17%;
+				height: 600px;
+				left: 13px;
+				top: 275px;
+				background-color: white;
+				border-radius:50px;
+			}
+			
+			aside h2{
+				position: relative;
+				color: #7a4f3a;
+				text-align: center;
+				margin: 10px;
+			}
+			
+			#post1 {
+				width:230px;
+				position: relative;
+				bottom: 220px;  
+				left: 0;
+				border-radius:25px;
+			}
+			
+			#post2 {
+				width:230px;
+				position: absolute;
+				bottom: 300px;
+				left: 0;
+				border-radius:25px;
+			}
+			
+			section p{
+				color: #7a4f3a;
+				text-align: center;
+			}
+			
+			section h2 {
+				font-family: georgia;
+				color: #7a4f3a;
+				position: relative;
+				text-align: left;
+				top: 20px;
+				left: 283px;
+			}
+			
+			section p{
+				background: #E4D1B9;
+				border-radius: 50px;
+				box-shadow: 5px 5px;
+				text-align: center;
+				margin: auto;
+				margin-top: 15px;
+				margin-bottom: 30px;
+				padding: 20px;
+				width: 60%;
+				overflow: hidden;
+				font-size: 20px;
+			}
+			
+			.image-container {
+				border: 2px solid #A97155;
+				border-radius: 8px;
+				padding: 20px;
+				margin-top: 20px;
+				text-align: center;
+				background-color: #f9f9f9;
+				display: flex; 
+				flex-wrap: wrap; 
+				justify-content: center; 
+			}
+
+			.image-container img {
+				width: 100%;
+				max-width: 200px; 
+				margin: 15px; 
+				border-radius: 5px;
+			}
+
+			#postButton {
+				display: block;
+				margin: 20px auto;
+				background-color: #A97155;
+				color: white;
+				border: none;
+				padding: 10px 20px;
+				cursor: pointer;
+				border-radius: 5px;
+			}
+
+			#postButton:hover {
+				background-color: #7a4f3a;
+			}
+			
+		</style>
+   </head>
+   <body>
+		<div class="top">
+			<header>
+				<h1>CAT! <em>(Call for Animal Treatment)</em></h1>
+				<h4>Fighting Animal Cruelty and Abuse!</h4>
+				<img id="catpic" src="CAT.png" alt="Image of a cat" width="150px">
+			</header>
+			<nav class="navbar">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Posts</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contacts</a></li>
+			<nav>
+		</div>
+		<aside>
+			<span>
+				<img id="hoodie" src="Hoodie.png">
+				<p id="promo"><b>New hoodie launch! :)</b></p>	
+			</span>
+			<div>
+				<h2>Relevant posts:</h2>
+			<div>
+			<a href='https://www.facebook.com/photo/?fbid=810650007868214&set=a.577420371191180'><img id="post2" src="D:\ziv acads\cs\post.jpg">
+			<br>
+			
+			<a href='https://www.facebook.com/photo/?fbid=825864822909115&set=pcb.825865272909070'><img id="post1" src="killua.jpg" >
+		</aside>
+		<article>
+			<section>
+				<h2>Animal abuse? What's that?</h2>
+				<p>As formally defined by the Spokane County (n.d.), "Animal Cruelty is defined as depriving an animal of food, water, shelter, and/or veterinary care.
+				Torturing, maiming, or killing animals is also animal cruelty". In simple words, the act of animal cruelty harms animals and disrupts their daily living.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/G393z8s8nFY?si=JTAOgwsoy8UwkA-F" title="YouTube video player" frameborder="0" allow="accelerometer; 
+				autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<img id="catwall" src="catwall.png" width="600px">
+			</section>
+			<section>
+				<h2>Common instances of animal abuse...</h2>
+				<p>Everyday, animal abuse happens without people noticing it. Some occurences might be in a simple manner such as people not feeding their "beloved" pet/s,
+				and some occurences might be in a more vile manner such as harming the animal, turning it into a "circus" pet or for display, and even testing the animal for
+				experiments and products.</p>
+			</section>
+			<section>
+				<h2>How do we solve this?</h2>
+				<p>Raising awareness is the first step towards combating animal cruelty. 
+				Community outreach programs can educate pet owners about proper care and the responsibilities that come with pet ownership. 
+				Additionally, advocating for stricter laws and regulations regarding animal treatment can help protect vulnerable animals
+				</p>
+			</section>
+			<section>
+				<h2>That's why CAT is here!</h2>
+				<p>CAT (Call for Animal Treatment) is dedicated to fighting against animal cruelty and promoting the humane treatment of animals. We conduct educational workshops and seminars to inform the public about the signs of animal abuse and how to report it. Our organization collaborates with local shelters and veterinary clinics to provide resources for pet owners, including food, shelter, and medical care for animals in need.</p>
+				<p>We also organize community events such as adoption drives, fundraising activities, and volunteer opportunities to engage the public in our mission. By fostering a community of compassionate individuals, we aim to create a safe and loving environment for all animals. Together, we can make a difference and ensure that every animal is treated with the care and respect they deserve.</p>
+			</section>
+		</article>
+		
+		<!-- Button to show images -->
+			<button id="postButton" onclick="showImages()">Posts of Animal Abuses</button>
+
+				<!-- Image container to display animal abuse images -->
+			<div id="imageContainer" style="display:none;">
+				<img src="Abused_animal1.jpg" alt="Animal Abuse 1">
+				<img src="Abused_animal2.jpg" alt="Animal Abuse 2">
+				<img src="Abused_animal3.jpg" alt="Animal Abuse 3">
+				<img src="Abused_animal4.jpg" alt="Animal Abuse 4">
+				<img src="Abused_animal5.jpg" alt="Animal Abuse 5">
+			</div>
+			
+		</article>
+		
+		<script>
+			function showImages() {
+				const imageContainer = document.getElementById('imageContainer');
+				imageContainer.style.display = imageContainer.style.display === 'none' ? 'block' : 'none';
+			}
+		</script>
+		<footer>
+			<p> &copy; 2023 CAT - Call for Animal Treatment. All rights reserved.</p>
+		</footer>
+   </body>
+</html>
