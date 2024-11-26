@@ -112,8 +112,7 @@ section p {
 }
 
 a {
-    color: #A97155; 
-    text-decoration: underline; 
+    color: #A97155; ; 
 }
 
 a:hover {
