@@ -112,6 +112,11 @@
 				text-align: left;
 				margin: 10px;
 			}
+
+			section img{
+				margin: 50px;
+				border-radius: 50px;
+			}
 			
 			section h2 {
 				font-family: georgia;
