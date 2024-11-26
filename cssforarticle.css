@@ -112,11 +112,11 @@ section p {
 }
 
 a {
-    color: #D19A6A; 
-    text-decoration: italic;
+    color: #A97155; 
+    text-decoration: italic; 
 }
 
 a:hover {
-    color: #A97155; 
+    color: #D19A6A; 
     text-decoration: underline; 
 }
