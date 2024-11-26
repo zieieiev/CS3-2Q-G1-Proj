@@ -113,6 +113,7 @@ section p {
 
 a {
     color: #A97155; 
+    text-decoration: italic;
 }
 
 a:hover {
