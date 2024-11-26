@@ -157,18 +157,7 @@ body{
 				border-radius: 5px;
 			}
 
-			#postButton {
-				display: block;
-				margin: 20px auto;
-				background-color: #A97155;
-				color: white;
-				border: none;
-				padding: 10px 20px;
-				cursor: pointer;
-				border-radius: 5px;
+			a {
+    				color: blue; 
+   				 text-decoration: underline; 
 			}
-
-			#postButton:hover {
-				background-color: #7a4f3a;
-			}
-    				
