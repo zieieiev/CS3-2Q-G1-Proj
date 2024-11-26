@@ -137,31 +137,3 @@
 				border-radius: 50px;
 				box-shadow: 5px 5px;
 			}
-			
-			.image-container {
-				border: 2px solid #A97155;
-				border-radius: 8px;
-				padding: 20px;
-				margin-top: 20px;
-				text-align: center;
-				background-color: #f9f9f9;
-				display: flex; 
-				flex-wrap: wrap; 
-				justify-content: center; 
-			}
-
-			.image-container img {
-				width: 100%;
-				max-width: 200px; 
-				margin: 15px; 
-				border-radius: 5px;
-			}
-
-			a {
-    				color: #A97155; 
-   			        text-decoration: underline; 
-			}
-
-			a:hover{
-				color: #A97155; 
-				text-decoration: underline; 
