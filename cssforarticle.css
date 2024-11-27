@@ -143,15 +143,6 @@
 		box-shadow: 5px 5px;
 	}
 
-	section img .pointer{
-		position: absolute;
-		left: 400px;
-		right: 100px;
-		bottom: 400px;
-	}
-	
-
-
 	a {
 	color: #A97155; 
 	text-decoration: italic; 
