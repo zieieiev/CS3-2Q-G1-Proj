@@ -143,7 +143,7 @@
 		box-shadow: 5px 5px;
 	}
 
-	.pointer:nth-child(1){
+	section img:nth-child(1){
 		position: relative;
 		left: 400px;
 		right: 100px;
