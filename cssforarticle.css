@@ -143,6 +143,12 @@
 		box-shadow: 5px 5px;
 	}
 
+	.pointers:nth-child(1){
+		position: relative;
+		left: 400px;
+		right: 100px;
+		bottom: 100px;
+	}
 	
 
 
