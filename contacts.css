@@ -1,4 +1,4 @@
-body{
+			body{
 				background-image: url("Pictures/wallpaper.png");
 				text-align: center;
 			}
@@ -84,12 +84,7 @@ body{
 				top: 20px;
 				left: 283px;
 			}
-			section img{
-				margin-top: 25px;
-				margin-bottom: 15px;
-				border-radius: 50px;
-			}
-
+			
 			section p{
 				color: #7a4f3a;
 				text-align: center;
@@ -105,3 +100,9 @@ body{
 				border-radius: 50px;
 				box-shadow: 5px 5px;
 			}
+			section img{
+				margin-top: 25px;
+				margin-bottom: 15px;
+				border-radius: 50px;
+			}
+
