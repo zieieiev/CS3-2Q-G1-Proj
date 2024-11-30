@@ -76,13 +76,14 @@
 				margin-right: 50px;
 			}
 			
-			section h2 {
+			section h2{
 				font-family: georgia;
 				color: #7a4f3a;
 				position: relative;
 				text-align: center;
+				top: 20px;
 			}
-			
+
 			section p{
 				color: #7a4f3a;
 				text-align: center;
