@@ -76,18 +76,6 @@ body{
 				margin-right: 50px;
 			}
 			
-			iframe {
-				position: relative;
-				left: 114px;
-			}
-			
-			#hoodie {
-				width: 250px;
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-			
 			section h2 {
 				font-family: georgia;
 				color: #7a4f3a;
