@@ -88,31 +88,6 @@ body{
 				left: 0;
 			}
 			
-			aside span>p{
-				font-family: comic sans ms;
-				position: relative;
-				color: #B80000;
-				font-size: 20px;
-				right: 625px;
-				top: 65px;
-				margin: 10px;
-			}
-			
-			aside div{
-				position: absolute;
-				width: 17%;
-				height: 954px;
-				left: 13px;
-				top: 275px;
-				background-color: white;
-			}
-			
-			aside h2{
-				position: relative;
-				text-align: left;
-				margin: 10px;
-			}
-			
 			section h2 {
 				font-family: georgia;
 				color: #7a4f3a;
